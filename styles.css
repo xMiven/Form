@@ -16,7 +16,7 @@ body {
 
 #sidebar {
   width: 40%;
-  background-image: url("/img/leon-seierlein-VcBMbn7KXHQ-unsplash.jpg");
+  background-image: url("https://images.unsplash.com/photo-1561811565-6ed172b54cbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&");
   background-size: cover;
   height: 100%;
 }
