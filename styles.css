@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;0,700;1,100;1,500;1,700&display=swap");
 
+:root {
+  --red: #cc0100;
+}
+
 body {
   display: flex;
   height: 100vh;
@@ -15,6 +19,19 @@ body {
   background-image: url("/img/leon-seierlein-VcBMbn7KXHQ-unsplash.jpg");
   background-size: cover;
   height: 100%;
+}
+
+#sidebar p {
+  color: white;
+}
+
+#sidebar a {
+  text-decoration: underline;
+  color: white;
+}
+
+#sidebar a:visited {
+  color: white;
 }
 
 #hondaLogo {
@@ -88,7 +105,7 @@ button {
   position: relative;
   top: 40px;
   border-radius: 10px;
-  background-color: #cc0100;
+  background-color: var(--red);
   color: white;
   font-size: 18px;
 }
@@ -97,4 +114,21 @@ button {
   height: 30%;
   width: 100%;
   padding: 100px 0 0 40px;
+}
+
+#bottom a:visited {
+  color: var(--red);
+}
+
+.error {
+  border-color: var(--red);
+  border-radius: 5px;
+}
+
+.errorFont {
+  color: var(--red);
+}
+
+.disabled {
+  background-color: grey;
 }

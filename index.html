@@ -51,7 +51,7 @@
           <div></div>
           <div class="inputBox">
             <label for="firstName">First Name:</label>
-            <input type="text" name="firstName" id="firstName" />
+            <input type="text" name="firstName" id="firstName" required />
           </div>
           <div class="inputBox">
             <label for="lastName">Last Name:</label>
@@ -59,15 +59,15 @@
           </div>
           <div class="inputBox">
             <label for="email">Email:</label>
-            <input type="email" name="email" id="email" />
+            <input type="email" name="email" id="email" required />
           </div>
           <div class="inputBox">
             <label for="number">Phone Name:</label>
             <input type="tel" name="number" id="number" />
           </div>
           <div class="inputBox">
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password" />
+            <label for="password" id="passwordLabel">Password:</label>
+            <input type="password" name="password" id="password" required />
           </div>
           <div class="inputBox">
             <label for="confirmPassword">Confirm Password:</label>
@@ -75,9 +75,10 @@
               type="password"
               name="confirmPassword"
               id="confirmPassword"
+              required
             />
           </div>
-          <button type="submit">Send</button>
+          <button type="submit" id="submit">Send</button>
         </form>
       </div>
       <div id="bottom">
