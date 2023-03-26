@@ -12,7 +12,7 @@ body {
 
 #sidebar {
   width: 40%;
-  background-image: url("/img/brendan-steeves-G-YAJ61qIuU-unsplash.jpg");
+  background-image: url("/img/leon-seierlein-VcBMbn7KXHQ-unsplash.jpg");
   background-size: cover;
   height: 100%;
 }
@@ -31,7 +31,7 @@ body {
 }
 
 #logo {
-  background-color: #dbdbdb30;
+  background-color: #ffffff50;
   height: 10%;
   width: 100%;
   display: flex;
